@@ -1,4 +1,4 @@
-# Counter-redline generation as OOXML surgery
+# Preserving native Word tracked changes in automated counter-redlines
 
 **One-liner:** A builder that takes a customer-redlined Word `.docx` plus a structured instruction set (accept, reject, or counter each tracked change) and emits a new package where **our party’s** responses appear as **valid tracked changes and comments**—without round-tripping through Word’s UI, by mutating `word/document.xml` and comment parts directly.
 
